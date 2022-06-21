@@ -39,7 +39,8 @@ $newAppOwnerId.ObjectId
 $EnvironmentName = Read-Host "Please enter the Environment Name"
 
 #Update Power App Owner
-Set-AdminPowerAppOwner -AppName $AppName -AppOwner $newAppOwnerId -EnvironmentName $EnvironmentName
+write-host -ForegroundColor Magenta "Updating app owner..." 
+Set-AdminPowerAppOwner -AppName $AppName -AppOwner $newAppOwnerId.ObjectId -EnvironmentName $EnvironmentName
 
 #Helpful Reference Links:
 #https://o365withlalit.wordpress.com/2020/07/01/change-ownership-of-powerapps/
