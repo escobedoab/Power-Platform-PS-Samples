@@ -32,11 +32,11 @@ Install-Module -Name Microsoft.PowerApps.PowerShell -AllowClobber
 Add-PowerAppsAccount
 
 write-host -ForegroundColor Magenta "Let's collect some more details..." 
-$AppName = Read-Host "Please enter your App Name"
+$AppName = Read-Host "Please enter your App ID"
 $newAppOwner = Read-Host "Please enter the New App Owner Email"
 $newAppOwnerId = Get-UsersOrGroupsFromGraph -SearchString $newAppOwner
 $newAppOwnerId.ObjectId
-$EnvironmentName = Read-Host "Please enter the Environment Name"
+$EnvironmentName = Read-Host "Please enter the Environment ID"
 
 #Update Power App Owner
 write-host -ForegroundColor Magenta "Updating app owner..." 
