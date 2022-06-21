@@ -8,3 +8,7 @@ https://github.com/escobedoab/Power-Platform-PS-Samples/blob/main/PowerShell%20S
 morismm99: https://github.com/morismm99/PowerShell/tree/main/Power%20Platform
 <br>
 PnP Samples: https://pnp.github.io/script-samples/by-tool.html
+
+Power Apps Canvas App Samples:
+<br>
+https://github.com/misskristine94
