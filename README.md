@@ -1,6 +1,6 @@
 # Power-Platform-PS-Samples
 
-Update the Power Apps app primary owner with PowerShell: 
+Update the Power Apps primary app owner with PowerShell: 
 https://github.com/escobedoab/Power-Platform-PS-Samples/blob/main/PowerShell%20Samples/Update%20Power%20Apps%20Owner.ps1
 <br><br><br><br><br>
 
